@@ -1,0 +1,29 @@
+{
+  "name": "examen_diagnostico",
+  "version": "1.0.0",
+  "description": "examen",
+  "homepage": "https://github.com/CiscoPaquitoTracer/examen_diagnostico#readme",
+  "bugs": {
+    "url": "https://github.com/CiscoPaquitoTracer/examen_diagnostico/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiscoPaquitoTracer/examen_diagnostico.git"
+  },
+  "license": "ISC",
+  "author": "Cisco",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
